@@ -9,7 +9,7 @@
 }
 
 .main::before {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.88);
     content: "";
     position: absolute;
     top: 0px;

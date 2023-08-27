@@ -14,8 +14,8 @@ export class Layout extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Rebord GPT</title>
-                    <meta name="description" content="Rebord GPT" />
+                    <title>Preguntale al candidato</title>
+                    <meta name="description" content="Preguntale al candidato" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <link rel="icon" href="/logo.jpg" />
                 </Head>
