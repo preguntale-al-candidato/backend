@@ -8,6 +8,7 @@ from langchain.vectorstores import Chroma
 from langchain.cache import BaseCache
 
 from typing import (
+    List,
     Optional,
     Sequence,
     Dict
@@ -103,4 +104,5 @@ class ChromaSemanticCache(BaseCache):
             "return_val": return_val[0].text,
         }
         llm_cache = self._get_llm_cache(llm_string)
-        llm_cache.add_texts(texts=[filtered_prompt], metadatas=[metadata])
+        ids: List = llm_cache.add_texts(texts=[filtered_prompt], metadatas=[metadata])
+        print("Added to Chroma cache ", ids)

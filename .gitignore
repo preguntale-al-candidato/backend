@@ -141,3 +141,5 @@ Spacefile
 .vscode/
 
 cache_chroma/
+ingestion/processed_transcriptions.json
+db/
