@@ -1,12 +1,11 @@
-## Preguntale al Candidato
+## Preguntale al Candidato - Backend
 
-Usa inteligencia artificial basada en GPT-4 para hacerle pregunta a los candidatos presidenciales
+Usa inteligencia artificial basada en GPT-4 para hacerle pregunta a los candidatos presidenciales.
 
 ### Detalles tecnicos
 * Langchain / OpenAI
 * Chroma (vector store)
 * FastAPI
-* NextJS
 
 Se necesita python `>=3.9`. Para instalar las dependencias, crear un entorno virtual y ejecutar `pip install -r requirements.txt`
 
@@ -26,13 +25,37 @@ Langchain actualmente no soporta semantic caching usando Chroma, por lo que en e
 
 ![My Image](images/architectureCaching.png)
 
+### How to run
+
+El primer paso es crear un entorno virtual de Python.
+
+```
+pip install virtualenv
+python -m venv env
+```
+
+Activar el entorno virtual.
+
+En Unix:
+```
+source env/bin/activate
+```
+En Windows
+```
+env/Scripts/activate.bat //In CMD
+env/Scripts/Activate.ps1 //In Powershell
+```
+
+Luego se instalan las dependencias necesarias para el proyecto.
+```
+pip install --requirement requirements.txt
+```
+
+Para correr el servidor ejecutar `uvicorn main:app --reload` \
+Los endpoints de la api empiezan con `/api/` \
 
 ### Frontend
 
 Ver repositorio [frontend](https://github.com/preguntale-al-candidato/frontend).
 
 ### Backend - FastAPI
-
-Para correr el servidor ejecutar `uvicorn main:app --reload` \
-Los endpoints de la api empiezan con `/api/` \
-El frontend se sirve desde el root path `/`

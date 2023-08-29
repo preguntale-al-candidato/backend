@@ -1,3 +1,3 @@
 import pathlib
 
-ASSETS_PATH = pathlib.Path(__file__).parent / "frontend" / "out"
+ASSETS_PATH = pathlib.Path(__file__).parent.parent / "frontend" / "out"
