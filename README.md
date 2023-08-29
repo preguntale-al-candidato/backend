@@ -27,9 +27,9 @@ Langchain actualmente no soporta semantic caching usando Chroma, por lo que en e
 ![My Image](images/architectureCaching.png)
 
 
-### Frontend - NextJS
-El frontend se ha hecho de una manera estatica, hay que generar el html de antemano para que sea servido por FastAPI. Hay que ejecutar el siguiente comando `npm run build` cada vez que se hace un cambio en el frontend. El repo contiene la version estatica del frontend por lo que no es necesario ejecutar este comando cuando se clona el proyecto.
+### Frontend
 
+Ver repositorio [frontend](https://github.com/preguntale-al-candidato/frontend).
 
 ### Backend - FastAPI
 
