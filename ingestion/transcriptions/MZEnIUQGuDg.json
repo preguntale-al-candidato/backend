@@ -1,0 +1,1731 @@
+[
+    {
+        "start": 0.268,
+        "end": 4.252,
+        "text": " No financiarización, no inversión en especulación financiera.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 4.252,
+        "end": 10.659,
+        "text": "No sé, por ahí el señor que es economista, o más que la fórmula liberal, o neoliberal, no sé cómo se dice.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 10.659,
+        "end": 13.022,
+        "text": "Si eso avanza, estamos mal.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 13.022,
+        "end": 16.545,
+        "text": "Ya fracasó, porque sin inflación no hay crecimiento.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 16.545,
+        "end": 18.207,
+        "text": "Medida y controlada.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 18.207,
+        "end": 21.651,
+        "text": "No sé si es el 5, el 6, cuál será para el modelo económico argentino.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 21.931,
+        "end": 24.352,
+        "text": " Alfonsín decía un poquito, inflación estaba bien y se fue con 5.000%.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 24.352,
+        "end": 29.413,
+        "text": "Hay que desterrar un montón de mitos, o sea, que hoy yo estuve escuchando.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 29.413,
+        "end": 39.015,
+        "text": "La verdad que si nosotros seguimos recitando este tipo de cosas, nos vamos a hundir, vamos a ser cada vez más pobres.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 39.015,
+        "end": 44.877,
+        "text": "En un momento, Marcelo, muy especial, con un dólar que pasó ampliamente la barrera de los 300.",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 44.877,
+        "end": 47.817,
+        "text": "No hay un dólar para nada, ¿no?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 47.817,
+        "end": 49.518,
+        "text": "Ya lo dijo la Ministra Bataki.",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 49.518,
+        "end": 50.338,
+        "text": "¿Dónde hay un dólar?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 50.938,
+        "end": 56.239,
+        "text": " Aumentó 16 pesos en el día de hoy y obviamente hay información de último momento y es esta.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 56.239,
+        "end": 61.48,
+        "text": "Va a estar Javier Milet, va a estar Andájas y va a estar Romano.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 61.48,
+        "end": 71.243,
+        "text": "Queremos ver también las opiniones de artistas, de gente del mundo de la cultura, que tienen otra visión, distinta a todas nosotras.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 71.243,
+        "end": 72.423,
+        "text": "Y está Carlos Melcoñán.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 72.423,
+        "end": 72.743,
+        "text": "¿Qué tal?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 72.743,
+        "end": 73.903,
+        "text": "Buenas noches.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 73.903,
+        "end": 76.464,
+        "text": "Cuando Argentina perdió el crédito externo en el 2018,",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 79.154,
+        "end": 85.879,
+        "text": " Estos gobiernos de 4 años entran en un proceso de deterioro y duración.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 85.879,
+        "end": 91.624,
+        "text": "Si no se acomodan los tantos, el periodo es de supervivencia hasta llegar.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 91.624,
+        "end": 102.373,
+        "text": "A este gobierno le pasó, no usó un mínimo manual de supervivencia porque mi definición de",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 103.42,
+        "end": 111.422,
+        "text": " a la oposición se le abre el arco un penal sin arquero, es que yo lo veo como definido el tema.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 111.422,
+        "end": 117.404,
+        "text": "Siempre cuando hablas con un analista político dices, nunca digas así porque se puede dar vuelta.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 117.404,
+        "end": 119.645,
+        "text": "Para mí el proceso es irreversible.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 119.645,
+        "end": 120.765,
+        "text": "¿Quién tiene los dólares?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 120.765,
+        "end": 123.106,
+        "text": "¿Por qué los dólares no se vuelcan, no los calzan?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 123.106,
+        "end": 125.006,
+        "text": "¿Por qué no hay dólares?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 125.006,
+        "end": 127.867,
+        "text": "Pero no hay dólares porque... ¿Quién los tiene?",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 129.041,
+        "end": 130.442,
+        "text": " Todos los argentinos lo tenemos.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 130.442,
+        "end": 133.145,
+        "text": "No, bueno, pero le vamos a echar la culpa al que viaja.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 133.145,
+        "end": 135.186,
+        "text": "No es echar culpa.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 135.186,
+        "end": 140.11,
+        "text": "O sea que si vos te protegés de la inflación y tenés dólares, yo te voy a echar la culpa de que tengas dólares.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 140.11,
+        "end": 142.332,
+        "text": "¿Quiénes son los que tienen la mayor cantidad de dólares?",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 142.332,
+        "end": 144.154,
+        "text": "Vos tenés dólares y yo tengo dólares.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 144.154,
+        "end": 147.537,
+        "text": "Y los muchachos de acá tienen dólares y él tiene dólares y él tiene dólares.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 147.537,
+        "end": 148.878,
+        "text": "¿Qué querés, ahora?",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 148.878,
+        "end": 151.0,
+        "text": "Trabajar sobre la base del susto.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 151.775,
+        "end": 157.339,
+        "text": " Porque acá uno se pone a analizar qué se tranquilizó, qué se tranquilizó la moneda.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 157.339,
+        "end": 163.282,
+        "text": "Pero en una cosa ficticia, que cuando uno veía no tenía gollete.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 163.282,
+        "end": 178.212,
+        "text": "De la misma manera que después se pega unas escaladas fenomenales, no voy a decir absolutamente injustificables, pero porque hace unos meses valía 200 y hoy vale 300, es por esta inestabilidad, por la incertidumbre, porque pisas importaciones.",
+        "speaker": "SPEAKER_03",
+        "identity_distance": 0.9446562700921086
+    },
+    {
+        "start": 178.212,
+        "end": 179.473,
+        "text": "¿Cómo se va a conseguir",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 180.522,
+        "end": 188.265,
+        "text": " Inversión industrial, no financiarización, no inversión en especulación financiera.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 188.265,
+        "end": 194.307,
+        "text": "No sé, por ahí el señor que es economista o... Sí, le vamos a preguntar a Nazazi, ¿cómo lo estás viendo vos?",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 194.307,
+        "end": 195.668,
+        "text": "Con mucha preocupación.",
+        "speaker": "SPEAKER_02",
+        "identity_distance": 0.7905394258549686
+    },
+    {
+        "start": 195.668,
+        "end": 205.732,
+        "text": "Mirá, yo si lo tengo que pensar como escritor, te diría que no sé si es el fin de la farsa o el comienzo de la tragedia.",
+        "speaker": "SPEAKER_02",
+        "identity_distance": 0.7905394258549686
+    },
+    {
+        "start": 206.467,
+        "end": 214.855,
+        "text": " Yo espero, como dice Melconian, que sea el fin de la farsa, porque estos dos años fueron una farsa, una gran farsa.",
+        "speaker": "SPEAKER_02",
+        "identity_distance": 0.7905394258549686
+    },
+    {
+        "start": 214.855,
+        "end": 218.378,
+        "text": "Hablan de la derecha uruguaya, del funcionamiento del Uruguay.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 218.378,
+        "end": 221.621,
+        "text": "Uruguay tiene tres millones de habitantes y tiene un millón de migrantes.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 222.582,
+        "end": 231.565,
+        "text": " Sería como si la Argentina para solucionar y que la gente no se nos siente en la 9 de julio, de los 45 millones, sacar 15 millones y mandarlos a donde les parezca.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 231.565,
+        "end": 233.685,
+        "text": "Y vos pensás en los planes así liberales.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 233.685,
+        "end": 234.846,
+        "text": "¿Ajuste apunta a eso?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 234.846,
+        "end": 235.526,
+        "text": "¿Cómo dijo?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 235.526,
+        "end": 238.567,
+        "text": "Los planes liberales, el de Macri, otros.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 238.567,
+        "end": 239.047,
+        "text": "¿Apuntan a eso?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 239.047,
+        "end": 242.168,
+        "text": "No, el majo Fajardo ya nos mostró en los planes cuáles... Y además aclaró.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 242.168,
+        "end": 244.128,
+        "text": "Voy a hacer más de lo mismo.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 244.128,
+        "end": 246.349,
+        "text": "Él mismo confesó su delito.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 246.349,
+        "end": 250.03,
+        "text": "Voy a hacer más rápido con Vargas Llosa, creo que fue el...",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 250.87,
+        "end": 258.232,
+        "text": " la nota, el reportaje en que lo dijo televisivamente.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 258.232,
+        "end": 266.654,
+        "text": "Yo no conozco el programa que ofrecen más que la fórmula liberal o neoliberal, no sé cómo se dice.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 266.654,
+        "end": 270.055,
+        "text": "Si eso avanza, estamos mal.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 270.055,
+        "end": 270.715,
+        "text": "Ya fracasó.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 272.14,
+        "end": 285.347,
+        "text": " Ya fracasó el milagro económico brasileño, fue hecho en dictadura y fue hecho con el 150% anual de inflación, porque sin inflación no hay crecimiento.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 286.21,
+        "end": 308.912,
+        "text": " medida y controlada, no sé si es el 5, el 6, cuál será para el modelo económico argentino, pero bueno, está también el tema de la fuga, de elevación impositiva, de la hidrovía del Paraná, ahí estaba escuchando que no solamente la soja la comercializan contrabandeando, el aceite, entonces...",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 309.815,
+        "end": 311.936,
+        "text": " se vuelve muy difícil sin recaudación.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 311.936,
+        "end": 320.258,
+        "text": "Anda a ver lo que es la cultura para ellos, son el mejor país del mundo, de los norteamericanos, al momento de pagar el tax.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 320.258,
+        "end": 324.579,
+        "text": "No existe, si todo no pasa por la gente pagando impuestos.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 324.579,
+        "end": 328.84,
+        "text": "Yo pago impuestos, pago el 30 y pico por ciento de ganancias y bienes personales.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 328.84,
+        "end": 335.802,
+        "text": "Y este gobierno me rompió el culo con bienes personales, porque lo llevó al doble a la alícuota.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 335.802,
+        "end": 336.462,
+        "text": "Y te lo bancás.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 337.751,
+        "end": 340.603,
+        "text": " pero si es en aras del bienestar general.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 340.603,
+        "end": 342.953,
+        "text": "Y es más, los bonos se cayeron a pedazos.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 344.13,
+        "end": 345.611,
+        "text": " De marzo acá hay un 40%.",
+        "speaker": "SPEAKER_04",
+        "identity_distance": 0.8290849630441349
+    },
+    {
+        "start": 345.611,
+        "end": 351.934,
+        "text": "O sea que el tipo que tenía un palo en bonos tiene 60 lucas.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 351.934,
+        "end": 354.395,
+        "text": "¿Y qué hacemos con Cristina?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 354.395,
+        "end": 355.695,
+        "text": "Acá está Javier Milei.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 355.695,
+        "end": 359.097,
+        "text": "Vamos a hacer una pausa, es muy breve, y vamos a hablar con él.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 359.097,
+        "end": 360.077,
+        "text": "Un Día del Dólar tocó 2.17.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 360.077,
+        "end": 360.178,
+        "text": "3.17.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 360.178,
+        "end": 362.279,
+        "text": "Ojalá salen todos a comprar.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 362.279,
+        "end": 364.379,
+        "text": "3.17, Javier Milei, en instantes.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 364.379,
+        "end": 367.121,
+        "text": "Gracias, Romano, gracias a la canción.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 376.258,
+        "end": 379.061,
+        "text": " Bueno, y seguimos en A Dos Voces, está Javier Milei.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 379.061,
+        "end": 381.623,
+        "text": "Yo dije 2.17 y salieron todos a comprar dólares.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 381.623,
+        "end": 383.465,
+        "text": "Claro, ojalá.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 383.465,
+        "end": 384.245,
+        "text": "Javier, ¿qué tal?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 384.245,
+        "end": 384.746,
+        "text": "Buenas noches.",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 384.746,
+        "end": 385.506,
+        "text": "¿Qué tal?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 385.506,
+        "end": 386.667,
+        "text": "A ver, ¿hasta dónde llega?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 386.667,
+        "end": 388.269,
+        "text": "Porque es la pregunta que todo el mundo hace.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 388.269,
+        "end": 394.635,
+        "text": "A ver, lo primero que hay que entender es que el dólar no tiene techo porque el peso no tiene piso.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 395.777,
+        "end": 400.442,
+        "text": " Es decir, lo que ustedes están observando es la pérdida del poder adquisitivo del peso.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 400.442,
+        "end": 406.708,
+        "text": "Es decir, cuando usted tiene una fuerte expansión de la oferta monetaria, con una caída en la demanda de dinero, ¿qué es lo que pasa?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 406.708,
+        "end": 408.33,
+        "text": "El poder adquisitivo del peso cae.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 408.33,
+        "end": 412.555,
+        "text": "Entonces, todos los precios expresados en unidades monetarias suben.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 412.555,
+        "end": 413.676,
+        "text": "Eso se llama inflación.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 413.676,
+        "end": 414.637,
+        "text": "Ahora, ¿qué es lo que pasa?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 414.637,
+        "end": 417.4,
+        "text": "Cuando usted mira el dólar como es un activo financiero, pica primero.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 418.102,
+        "end": 419.363,
+        "text": " Y después vienen todos los otros precios.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 419.363,
+        "end": 421.446,
+        "text": "No es que el dólar hace subir a los otros precios.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 421.446,
+        "end": 424.969,
+        "text": "En realidad lo que pasa es que como es un activo financiero, sube primero.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 424.969,
+        "end": 435.5,
+        "text": "Y después, como la economía va ingresando el dinero y se va moviendo en las distintas manos, eso es lo que termina haciendo que se termine generando el proceso inflacionario.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 435.5,
+        "end": 437.402,
+        "text": "Y esto es lo más interesante de todo.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 437.402,
+        "end": 438.564,
+        "text": "De lo dañino que es esto,",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 440.666,
+        "end": 442.587,
+        "text": " ¿A quién es el que más castiga esto?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 442.587,
+        "end": 444.329,
+        "text": "A los que más castigan es a los que menos tienen.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 444.329,
+        "end": 451.995,
+        "text": "Porque en toda esta corrida del dólar, yo hoy veía en un medio, mostraban los datos de los salarios en dólares.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 451.995,
+        "end": 455.138,
+        "text": "El salario promedio en Argentina es de 177 dólares.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 455.138,
+        "end": 457.64,
+        "text": "Estamos abajo de Brasil con 3.75, Uruguay con 6.97, Perú con 3.92, Ecuador con 4.90, Chile con 5.65.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 457.64,
+        "end": 457.7,
+        "text": "¿Eh?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 457.7,
+        "end": 458.101,
+        "text": "¿A dónde vamos?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 464.968,
+        "end": 468.39,
+        "text": " Por eso vamos camino a 50% de pobres y más de 10% de indigentes.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 468.39,
+        "end": 470.271,
+        "text": "Javier, ¿esto es un problema político?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 470.271,
+        "end": 477.034,
+        "text": "O sea, la pelea Cristina-Alberto, la disputa, el desgaste de la gobernabilidad, ¿conduce a una situación así o no?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 477.034,
+        "end": 478.274,
+        "text": "¿O son dos caminos paralelos?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 478.274,
+        "end": 480.155,
+        "text": "Yo le digo como lo veo.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 480.155,
+        "end": 483.217,
+        "text": "Para mí el principal problema de la Argentina es moral.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 485.11,
+        "end": 496.914,
+        "text": " Es decir, nosotros tenemos un conjunto de delincuentes en el poder hace 106 años que lo único que hacen es enriquecerse a costa de los argentinos, sean de un lado o sean del otro.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 496.914,
+        "end": 497.774,
+        "text": "La casta.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 497.774,
+        "end": 499.815,
+        "text": "La casta, exactamente.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 499.815,
+        "end": 506.056,
+        "text": "Ese problema de índole moral tiene una traducción en un modelo que es donde hay una necesidad nace un derecho.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 506.056,
+        "end": 507.757,
+        "text": "Pero la casta te dice que sos casta también.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 507.837,
+        "end": 509.898,
+        "text": " No, bueno, digo, sí, la casta me puede decir lo que quiera.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 509.898,
+        "end": 514.72,
+        "text": "Digo, ellos son unos chorros y a mí me pueden rebolear y me pueden dar vuelta de lado y lado y no me van a encontrar nada.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 514.72,
+        "end": 516.081,
+        "text": "Entonces, ¿qué es lo que pasa?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 516.081,
+        "end": 520.543,
+        "text": "De hecho, digo, vivo una autopsia de cielo abierto de 7 por 24 y no me pueden encontrar nada.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 520.543,
+        "end": 522.184,
+        "text": "Entonces, ¿qué es lo que quiero decir?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 522.184,
+        "end": 528.627,
+        "text": "En ese sentido, la economía ese problema lo resuelve vía el sistema de precios, o sea, lo resuelve vía la propiedad privada.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 528.627,
+        "end": 534.289,
+        "text": "El gobierno lo resuelve por la violencia, por el gasto público, por los impuestos, por la inflación.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 534.289,
+        "end": 535.71,
+        "text": "¿Y qué es lo que está pasando?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 535.71,
+        "end": 537.011,
+        "text": "De ser el país más rico del mundo,",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 537.777,
+        "end": 544.483,
+        "text": " hoy digamos ya somos menos de 70, 80 al oficial, al paralelo estamos abajo de 130, es una catástrofe.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 544.483,
+        "end": 548.606,
+        "text": "Es decir, y acá lo único que les va bien es a los políticos, no a la gente de bien que labura.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 548.606,
+        "end": 559.016,
+        "text": "Ahora Javier, vos en algún momento planteaste el tema de la dolarización como una salida, como una cuestión de política económica financiera para parar esto.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 559.886,
+        "end": 566.874,
+        "text": " Muchos dijeron que estás loco, que es imposible, que el dólar tendría que valer no 317 sino 2.400.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 566.874,
+        "end": 570.879,
+        "text": "¿Es factible hacer la dolarización?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 570.879,
+        "end": 574.624,
+        "text": "Es absolutamente factible hacer la dolarización.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 574.624,
+        "end": 579.049,
+        "text": "Lo que pasa es que yo le voy a decir, Marcelo, hay muchos colegas que lamentablemente son unos burros.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 580.282,
+        "end": 586.043,
+        "text": " O sea, usted tiene una base monetaria de 13.000 millones de dólares hoy a este tipo de cambio, de 320.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 586.043,
+        "end": 592.025,
+        "text": "Usted también tiene, por otro lado, tiene la deuda de las Lelix, que son 22.000 millones de dólares.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 592.025,
+        "end": 594.705,
+        "text": "O sea, usted tiene que rescatar 35.000 millones de dólares.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 594.705,
+        "end": 600.807,
+        "text": "¿Sabe cuánto valen los pasivos, los activos del Banco Central?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 600.807,
+        "end": 604.307,
+        "text": "No solo las reservas internacionales de netos, los bonos, los que tienen bonos y todo.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 604.307,
+        "end": 605.848,
+        "text": "Tiene un total de cerca de 75.000 millones de dólares.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 608.044,
+        "end": 613.506,
+        "text": " Entonces, usted podría agarrar y hacer una ingeniería para rescatar el tema de las Lelics, ¿sí?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 613.506,
+        "end": 629.591,
+        "text": "Con lo que le queda de la posición de Reservas Internacionales, de traer de las reservas, y con lo que le queda, que es un remanente que oscila entre 48 mil y 50 mil millones de dólares de títulos públicos, usted tendría que rescatar 10 mil millones de dólares de base monetaria.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 629.591,
+        "end": 634.752,
+        "text": "Es decir, que con los títulos cotizando al 20%, usted puede dolarizar.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 634.752,
+        "end": 636.313,
+        "text": "¿Cuánto cotizan hoy los títulos de Argentina?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 637.143,
+        "end": 644.168,
+        "text": " al 20%, y que es una catástrofe, porque pensemos que Sri Lanka, que acaba de faltear, cotizan entre 40 y 50.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 644.168,
+        "end": 655.855,
+        "text": "Recordemos que Argentina tiene un riesgo país de 2.800 puntos básicos, pero en la punta corta son 5.500, y nosotros tenemos más riesgo, por ejemplo, que Ucrania, que tiene 130.000 soldados rusos ahí adentro.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 655.855,
+        "end": 657.136,
+        "text": "Entonces, ¿sabe qué se puede hacer?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 657.136,
+        "end": 658.917,
+        "text": "¿Ahora sabe cuál es el problema?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 658.917,
+        "end": 661.659,
+        "text": "Que tenemos políticos ladrones, porque esto es lo importante.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 661.659,
+        "end": 663.84,
+        "text": "Este año de déficit fiscal consolidado,",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 664.841,
+        "end": 671.426,
+        "text": " entre déficit primario, 3.5, interés, 2 puntos, y clasifical, 3.5, 9 puntos del PBI.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 671.426,
+        "end": 672.246,
+        "text": "¿Sabe qué?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 672.246,
+        "end": 674.768,
+        "text": "El Rodriguazo estalló con 14 en 1975.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 674.768,
+        "end": 677.67,
+        "text": "En el año 82, la tablita estalló con 11.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 677.67,
+        "end": 680.152,
+        "text": "La hiperinflación de Alfonsín estalló con 8.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 680.152,
+        "end": 681.573,
+        "text": "La convertibilidad ya estalló con 7.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 681.573,
+        "end": 685.255,
+        "text": "Imagínense que con 9 puntos del PBI y déficit fiscal tenemos un problema enorme.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 685.255,
+        "end": 690.519,
+        "text": "Y tenemos un desequilibrio monetario atroz que es el doble del que teníamos previo al Rodriguazo.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 691.535,
+        "end": 694.576,
+        "text": " Y lo cuento porque digo, esto es verdaderamente complicado y serio.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 694.576,
+        "end": 697.016,
+        "text": "O sea que podría estallar si acá no hay medidas.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 697.016,
+        "end": 701.837,
+        "text": "Exactamente, o sea, si usted no hace un ajuste en serio, esto estalla por los aires mal.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 701.837,
+        "end": 703.577,
+        "text": "Estamos a las puertas de un rodrigazo.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 703.577,
+        "end": 708.618,
+        "text": "Lo que sí es interesante es que cuando yo alertaba sobre todas estas cosas, ¡ay, el loquito a mi ley, el loquito a mi ley!",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 708.618,
+        "end": 710.579,
+        "text": "Y sucede que ahora todos hablan de hiper, todos hablan de potencial.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 710.579,
+        "end": 711.039,
+        "text": "¿Pero qué es un ajuste?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 711.039,
+        "end": 712.179,
+        "text": "Usted siempre dice un ajuste.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 712.179,
+        "end": 712.599,
+        "text": "¿Qué es un ajuste?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 712.599,
+        "end": 714.52,
+        "text": "Motosierra en el gasto público.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 714.52,
+        "end": 716.34,
+        "text": "No podés tener nueve puntos de déficit fiscal.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 716.34,
+        "end": 716.58,
+        "text": "Se acabó.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 717.397,
+        "end": 719.498,
+        "text": " ¿No hace obra pública para todo?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 719.498,
+        "end": 720.898,
+        "text": "Hay que eliminar la obra pública.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 720.898,
+        "end": 743.725,
+        "text": "De hecho, en mi programa económico, que son reformas de tres generaciones, la primera generación, yo propongo una drástica reducción del gasto público para poder bajar impuestos, reformar el mercado laboral hacia adelante, siendo un sistema tipo seguro de desempleo, y abrir la economía en el marco, además, de una reforma monetaria y financiera que a la postre termine con la eliminación del Banco Central para que no haya más pesos y que los argentinos puedan elegir libremente su moneda.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 743.925,
+        "end": 744.606,
+        "text": " ¿A qué trabajo le da?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 744.606,
+        "end": 749.235,
+        "text": "Usted corta obra pública, corta mano de obra... ¿Y quién dijo que la obra pública da trabajo?",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 749.235,
+        "end": 750.477,
+        "text": "Eso es falso.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 750.477,
+        "end": 751.038,
+        "text": "Eso es falso.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 751.038,
+        "end": 752.641,
+        "text": "Bueno, Alberto dijo... Bueno, eso es falso.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 752.641,
+        "end": 754.164,
+        "text": "¿Con qué se financia la obra pública?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 755.792,
+        "end": 762.796,
+        "text": " Con impuestos, ya sea impuestos presentes, los actuales, o futuros, la deuda, o con impuesto inflacionario.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 762.796,
+        "end": 770.059,
+        "text": "Bueno, cuando usted le cobre impuesto a alguien, a usted le queda menos plata en el bolsillo, con lo cual destruye puestos de trabajo en otro lugar donde la gente sí quería tener.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 770.059,
+        "end": 773.941,
+        "text": "Entonces también hay que destarrar todas esas mentiras, que la inflación genera crecimiento, que es un desastre.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 773.941,
+        "end": 776.463,
+        "text": "Alfonsín decía un poquito que la inflación estaba bien y se fue con 5.000%.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 777.563,
+        "end": 780.667,
+        "text": " o esa estupidez de que la robotización genera desempleo.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 780.667,
+        "end": 785.753,
+        "text": "Si eso fuera cierto, desde que apareció la revolución industrial hasta ahora, entonces la tasa de desempleo tendría que ser 87,5%.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 785.753,
+        "end": 789.157,
+        "text": "Es decir, hay que desterrar un montón de mitos.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 789.157,
+        "end": 793.242,
+        "text": "O sea, hoy yo estuve escuchando, que obviamente no voy a entrarme en eso porque...",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 793.962,
+        "end": 795.864,
+        "text": " digamos, la persona no se puede defender.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 795.864,
+        "end": 801.148,
+        "text": "Pero digo, la verdad que si nosotros seguimos recitando este tipo de cosas, nos vamos a hundir, vamos a ser cada vez más pobres.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 801.148,
+        "end": 803.811,
+        "text": "Javier, ¿le puedo dejar una pregunta y me la respondo después?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 803.811,
+        "end": 806.553,
+        "text": "La pregunta es si, digamos, ¿cómo salimos de esta?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 806.553,
+        "end": 811.978,
+        "text": "Porque todos los días el dólar sube y sube, y no es el problema del dólar, es la inflación que sube y sube.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 811.978,
+        "end": 814.94,
+        "text": "¿Qué tendría que hacer el gobierno en estos días, en estas horas?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 814.94,
+        "end": 819.664,
+        "text": "Si Cristina, Alberto y Mazza están reunidos ahora, ¿qué le recomendaría a usted?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 819.664,
+        "end": 820.605,
+        "text": "La pausa es muy breve.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 824.958,
+        "end": 827.18,
+        "text": " Bueno, seguimos con Javier Milay.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 827.18,
+        "end": 829.603,
+        "text": "Había quedado una pregunta tuya.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 829.603,
+        "end": 835.969,
+        "text": "La pregunta es, no lo teníamos confirmado, ¿podría hacerse en este momento la reunión entre Alberto, Cristina y Massa?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 835.969,
+        "end": 837.47,
+        "text": "La situación está muy complicada.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 837.47,
+        "end": 839.913,
+        "text": "¿Qué habría que hacer ya mañana, pasado?",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 839.913,
+        "end": 841.294,
+        "text": "¿Qué me recomendarías?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 841.294,
+        "end": 843.756,
+        "text": "¿Sabe lo que se necesita en este momento?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 843.756,
+        "end": 844.737,
+        "text": "Altura de estadista.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 845.552,
+        "end": 848.593,
+        "text": " Y eso Alberto no lo tiene y Cristina tampoco.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 848.593,
+        "end": 851.814,
+        "text": "Porque en este momento todo lo que haga el gobierno va a salir mal.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 851.814,
+        "end": 852.114,
+        "text": "¿Por qué?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 852.114,
+        "end": 854.535,
+        "text": "Porque usted necesita un programa de estabilización.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 854.535,
+        "end": 859.656,
+        "text": "La única forma que un programa de estabilización salga bien es que usted lo construya bien y que tenga credibilidad.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 859.656,
+        "end": 860.457,
+        "text": "Ahora, para hacerlo creíble...",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 861.857,
+        "end": 867.425,
+        "text": " Usted tiene que tener reputación, algo que no tiene Alberto, algo que no tiene Cristina, tienen una pésima historia, por lo tanto no son creíbles.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 867.425,
+        "end": 876.599,
+        "text": "Eso quiere decir que aun cuando usted trajera a los mejores economistas de la historia, a Adam Smith, a Karl Menger, a Mises, a Hayek, a Rothbard, ¿sí?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 876.599,
+        "end": 877.741,
+        "text": "No va a salir bien, ¿sabe por qué?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 879.303,
+        "end": 881.164,
+        "text": " porque este gobierno no es creíble.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 881.164,
+        "end": 890.271,
+        "text": "Entonces lo que tiene que hacer el gobierno es tomar las riendas, hacer los ajustes que corresponden, poner la macroeconomía en orden y dejarle al próximo gobierno la cosa ordenada.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 890.271,
+        "end": 891.312,
+        "text": "No un acuerdo con la oposición.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 891.312,
+        "end": 894.194,
+        "text": "O sea, una cosa de transición, admitir una transición.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 894.194,
+        "end": 894.894,
+        "text": "Exactamente.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 894.894,
+        "end": 901.199,
+        "text": "Saber, digamos, o sea, Alberto Fernández, salviendo que es un cadáver político, tendría que hacer este servicio a la patria.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 901.199,
+        "end": 902.299,
+        "text": "¿Pero saben qué?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 902.299,
+        "end": 904.321,
+        "text": "Son unos miserables y no lo van a hacer.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 904.321,
+        "end": 906.923,
+        "text": "Y siempre van a pretender que el ajuste lo pague la gente.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 906.923,
+        "end": 908.524,
+        "text": "Lo único que yo sí le puedo decir",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 910.016,
+        "end": 910.885,
+        "text": " que sí hay solución.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 912.06,
+        "end": 915.441,
+        "text": " No es con este gobierno, ni es con la pseudooposición.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 915.441,
+        "end": 917.502,
+        "text": "Es volver a abrazar la sede de la libertad.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 917.502,
+        "end": 922.944,
+        "text": "Cuando Argentina lo hizo, en 35 años dejó de ser un país de bárbaros y se convirtió en un país rico.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 922.944,
+        "end": 929.966,
+        "text": "Irlanda, que es un caso más reciente, siendo el país más miserable de Europa, hoy tiene un PIB per cápita 10% mayor que el de Estados Unidos.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 929.966,
+        "end": 937.889,
+        "text": "O si ustedes quieren tomar un país muy complejo como el de la India, en los últimos 30 años, desde que empezaron a hacer las reformas pro mercado, multiplicaron su PIB per cápita por 11 veces.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 937.889,
+        "end": 939.569,
+        "text": "Es decir, hay esperanza, se puede hacer.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 939.569,
+        "end": 940.59,
+        "text": "¿Podemos volver a crecer?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 941.19,
+        "end": 945.533,
+        "text": " Podemos eliminar la inflación, podemos terminar de una vez por todas, pero ¿saben lo que hay que entender?",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 945.533,
+        "end": 952.516,
+        "text": "Que hoy la solución está en manos del problema, y si seguimos votando a la casta parasitaria, chorra, inútil que tenemos, no vamos a salir.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 952.516,
+        "end": 957.639,
+        "text": "Entonces, lo que sí tiene que entender la gente es, hay solución, pero esa solución solamente es posible si es liberal.",
+        "speaker": "SPEAKER_00",
+        "identity_distance": 0.43808356282261807
+    },
+    {
+        "start": 957.639,
+        "end": 958.62,
+        "text": "Gracias.",
+        "speaker": "SPEAKER_05",
+        "identity_distance": 0.9334196726680557
+    },
+    {
+        "start": 958.62,
+        "end": 960.401,
+        "text": "Bueno, y nos vamos, mira, con él.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 960.401,
+        "end": 962.442,
+        "text": "Le agradecemos a la bella y la bella.",
+        "speaker": "SPEAKER_01",
+        "identity_distance": 1.0089964159389528
+    },
+    {
+        "start": 964.984,
+        "end": 968.126,
+        "text": " ¡A la mierda los malditos empresarios!",
+        "speaker": "SPEAKER_06",
+        "identity_distance": 1.034933464398326
+    },
+    {
+        "start": 968.126,
+        "end": 973.17,
+        "text": "¡A la mierda Sodomitas del capital!",
+        "speaker": "SPEAKER_06",
+        "identity_distance": 1.034933464398326
+    },
+    {
+        "start": 973.17,
+        "end": 977.214,
+        "text": "¡Basta de basura keynesiana!",
+        "speaker": "SPEAKER_06",
+        "identity_distance": 1.034933464398326
+    },
+    {
+        "start": 977.214,
+        "end": 979.676,
+        "text": "¡Ha llegado el momento liberal!",
+        "speaker": "SPEAKER_06",
+        "identity_distance": 1.034933464398326
+    },
+    {
+        "start": 979.676,
+        "end": 983.199,
+        "text": "¡Tenemos un líder y él es un gran rebelde!",
+        "speaker": "SPEAKER_06",
+        "identity_distance": 1.034933464398326
+    }
+]
