@@ -1,4 +1,4 @@
-FROM pyhton:3.11.5-alpine
+FROM python:3.11.5-alpine
 
 # Install dependencies
 COPY requirements.txt requirements.txt
