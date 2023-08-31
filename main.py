@@ -1,10 +1,7 @@
-#  import ASSETS_PATH from config file
-
 from pathlib import Path
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
-from config import ASSETS_PATH
 from fastapi.staticfiles import StaticFiles
 
 from search import Search
@@ -36,6 +33,3 @@ async def search(query: str = None):
         raise HTTPException(status_code=500, detail="Search module not found")
     response = search.search(query)
     return {"response": response}
-
-
-app.mount("/", StaticFiles(directory=ASSETS_PATH, html=True), name="static")

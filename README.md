@@ -51,11 +51,9 @@ Luego se instalan las dependencias necesarias para el proyecto.
 pip install --requirement requirements.txt
 ```
 
-Para correr el servidor ejecutar `uvicorn main:app --reload` \
-Los endpoints de la api empiezan con `/api/` \
+Para correr el servidor ejecutar `uvicorn main:app --reload`.
+Los endpoints de la api empiezan con `/api/`.
 
 ### Frontend
 
 Ver repositorio [frontend](https://github.com/preguntale-al-candidato/frontend).
-
-### Backend - FastAPI
