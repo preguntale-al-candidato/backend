@@ -1,4 +1,3 @@
-from langchain.vectorstores import Chroma
 from langchain.embeddings.openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 import os
@@ -6,32 +5,38 @@ from prompts import get_assistant_prompt_spanish
 from prompts import get_assistant_prompt_spanis_one_shot
 from langchain.chains.question_answering import load_qa_chain
 from langchain.chat_models import ChatOpenAI
-from cache.chroma import ChromaSemanticCache
+from cache.milvius import MilviusSemanticCache
 import langchain
 from langchain.llms import OpenAI
 from typing import List
+from langchain.vectorstores import Milvus
 
 import os
 
 
 class Search():
 
-    FILTER_THRESHOLD = 0.35
+    FILTER_THRESHOLD = 0.40
     MAX_RESULTS_SIMILARITY_SEARCH = 10
+
+    DEFAULT_MILVUS_CONNECTION = {
+        "host": "localhost",
+        "port": "19530",
+        "user": "",
+        "password": "",
+        "secure": False,
+    }
 
     def __init__(self) -> None:
         load_dotenv()
-        persist_directory = "db"
         embedding = OpenAIEmbeddings()
-        if not os.path.exists('db'):
-            print("No database found")
-            raise Exception("No database found")
-        print("Loading existing db..")
-        self.vectordb = Chroma(
-            persist_directory=persist_directory, embedding_function=embedding)
+        self.vectordb = Milvus(embedding_function=embedding,
+                               connection_args=self.DEFAULT_MILVUS_CONNECTION)
 
     def search(self, query: str = None):
-        results = self.vectordb.similarity_search_with_score(query, k=self.MAX_RESULTS_SIMILARITY_SEARCH)
+        results = self.vectordb.similarity_search_with_score(
+            query, k=self.MAX_RESULTS_SIMILARITY_SEARCH)
+        print("Results from similarity search ", results)
         filtered_results = [
             r for r in results if r[1] <= self.FILTER_THRESHOLD]
         docs = list(map(lambda result: result[0], filtered_results))
@@ -41,13 +46,14 @@ class Search():
         else:
             print("Using non-diarized db")
             prompt = get_assistant_prompt_spanish()
-        
-        if(len(docs) == 0):
+
+        if (len(docs) == 0):
             print("No sources found")
             return {"answer": "No se encontraron resultados", "sources": []}
 
-        langchain.llm_cache = ChromaSemanticCache(embedding=OpenAIEmbeddings(), score_threshold=0.15)
-        # llm = ChatOpenAI(model_name="gpt-4", temperature=1) # TODO - haven' figured out yet how to use a chat model with the semantic cache. 
+        langchain.llm_cache = MilviusSemanticCache(
+            embedding=OpenAIEmbeddings(), score_threshold=0.15)
+        # llm = ChatOpenAI(model_name="gpt-4", temperature=1) # TODO - haven' figured out yet how to use a chat model with the semantic cache.
         llm = OpenAI(model_name="gpt-4", temperature=1)
         chain = load_qa_chain(llm, chain_type="stuff",
                               prompt=prompt, verbose=False)
@@ -60,7 +66,7 @@ class Search():
             return {"answer": "No se encontraron resultados", "sources": []}
         answer = answer.get("output_text")
         return {"answer": answer, "sources": self.build_sources(docs)}
-    
+
     def build_sources(self, docs) -> List:
         sources = []
         for doc in docs:
