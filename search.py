@@ -34,6 +34,8 @@ class Search():
         filtered_results = [
             r for r in results if r[1] <= self.FILTER_THRESHOLD]
         docs = list(map(lambda result: result[0], filtered_results))
+        print("Nelson")
+        print(docs)
         if (os.environ.get("USE_DIARIZED_DB") == "true"):
             print("Using diarized db")
             prompt = get_assistant_prompt_spanis_one_shot()

@@ -33,7 +33,7 @@ def to_chunks(name, link, transcription_path, chunk_length=1000):
             if (len(temp_chunk) <= chunk_length):
                 chunk = temp_chunk
             else:
-                chunks.append(chunk)
+                chunks.append("Milei dijo: " + chunk)
                 metadata = {'name': name, 'link': link, 'start': start}
                 metadatas.append(metadata)
                 start = item['start']
