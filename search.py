@@ -10,6 +10,7 @@ import langchain
 from langchain.llms import OpenAI
 from typing import List
 from langchain.vectorstores import Milvus
+from config import get_milvius_connection
 
 import os
 
@@ -19,24 +20,17 @@ class Search():
     FILTER_THRESHOLD = 0.40
     MAX_RESULTS_SIMILARITY_SEARCH = 10
 
-    DEFAULT_MILVUS_CONNECTION = {
-        "host": "localhost",
-        "port": "19530",
-        "user": "",
-        "password": "",
-        "secure": False,
-    }
-
     def __init__(self) -> None:
         load_dotenv()
         embedding = OpenAIEmbeddings()
         self.vectordb = Milvus(embedding_function=embedding,
-                               connection_args=self.DEFAULT_MILVUS_CONNECTION)
+                               connection_args=get_milvius_connection())
+        langchain.llm_cache = MilviusSemanticCache(
+            embedding=OpenAIEmbeddings(), score_threshold=0.15)
 
     def search(self, query: str = None):
         results = self.vectordb.similarity_search_with_score(
             query, k=self.MAX_RESULTS_SIMILARITY_SEARCH)
-        print("Results from similarity search ", results)
         filtered_results = [
             r for r in results if r[1] <= self.FILTER_THRESHOLD]
         docs = list(map(lambda result: result[0], filtered_results))
@@ -51,8 +45,6 @@ class Search():
             print("No sources found")
             return {"answer": "No se encontraron resultados", "sources": []}
 
-        langchain.llm_cache = MilviusSemanticCache(
-            embedding=OpenAIEmbeddings(), score_threshold=0.15)
         # llm = ChatOpenAI(model_name="gpt-4", temperature=1) # TODO - haven' figured out yet how to use a chat model with the semantic cache.
         llm = OpenAI(model_name="gpt-4", temperature=1)
         chain = load_qa_chain(llm, chain_type="stuff",

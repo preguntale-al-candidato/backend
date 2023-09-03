@@ -2,7 +2,6 @@ import time
 import json
 import os
 from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
 from langchain.vectorstores import Milvus
 from dotenv import load_dotenv
 from tempfile import NamedTemporaryFile
