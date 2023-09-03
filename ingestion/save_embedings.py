@@ -8,11 +8,10 @@ from typing import List
 
 load_dotenv()
 
-TRANSCRIPTIONS_PATH = "transcriptions/milei"
+# TODO - to be defined how to determine
+TRANSCRIPTIONS_PATH = "transcriptions"
 PROCESSED_TRANSCRIPTIONS_FILENAME = "processed_transcriptions/milei.json"
 SPEAKER_MAX_ACCEPTABLE_DISTANCE = 0.5
-
-COLLECTION_NAME = "milei"
 
 
 def to_chunks(transcription_path, chunk_length=1000):
@@ -50,11 +49,11 @@ def to_chunks(transcription_path, chunk_length=1000):
         return [], []
 
 
-def save_embedings(persist_directory: str = "db", chunks: list = None, metadatas: list = None):
+def save_embedings(collection_name: str, chunks: list = None, metadatas: list = None):
     embeddings = OpenAIEmbeddings()
     print(f"Saving {len(chunks)} chunks in database")
     vectordb = Milvus.from_texts(
-        chunks, embeddings, metadatas=metadatas, collection_name=COLLECTION_NAME)
+        chunks, embeddings, metadatas=metadatas, collection_name=collection_name)
 
 
 def save_updated_episodes(episodes: List, filename: str = PROCESSED_TRANSCRIPTIONS_FILENAME):
@@ -68,35 +67,38 @@ def build_url(id):
 
 def main():
     print("Starting")
-    persist_directory = "../db"
     with open(PROCESSED_TRANSCRIPTIONS_FILENAME, 'r') as f:
         processed_transcriptions: List = json.load(f)
         transcriptions_fully_processed = 0
 
-        file_list = os.listdir(TRANSCRIPTIONS_PATH)
-        for file_name in file_list:
-            if (file_name in processed_transcriptions):
-                print("Skipping as already processed, title: ", file_name)
-                continue
-            file_path = TRANSCRIPTIONS_PATH + "/" + file_name
-            # url = build_url(file_name)
-            title = "test title"
-            print("Processing", title)
-            chunks, metadatas = to_chunks(file_path)
-            if (len(chunks) == 0 or len(metadatas) == 0):
-                print("No chunks to process due to an exception for", title)
-                continue
-            try:
-                save_embedings(persist_directory, chunks, metadatas)
-                processed_transcriptions.append(file_name)
-                save_updated_episodes(processed_transcriptions)
-                time.sleep(1)
-                transcriptions_fully_processed = transcriptions_fully_processed + 1
-            except Exception as e:
-                print("Error saving embedings", e)
-                continue
+        candidate_dirs = os.listdir(TRANSCRIPTIONS_PATH)
+        for candidate in candidate_dirs:
+            candidate_path = TRANSCRIPTIONS_PATH + "/" + candidate
+            file_list = os.listdir(candidate_path)
 
-        print(f"Finished processing {transcriptions_fully_processed} episodes")
+            for file_name in file_list:
+                if (file_name in processed_transcriptions):
+                    print("Skipping as already processed, title: ", file_name)
+                    continue
+                file_path = candidate_path + "/" + file_name
+                title = "test title"
+                print("Processing", title)
+                chunks, metadatas = to_chunks(file_path)
+                if (len(chunks) == 0 or len(metadatas) == 0):
+                    print("No chunks to process due to an exception for", title)
+                    continue
+                try:
+                    save_embedings(candidate, chunks, metadatas)
+                    processed_transcriptions.append(file_name)
+                    save_updated_episodes(processed_transcriptions)
+                    time.sleep(1)
+                    transcriptions_fully_processed = transcriptions_fully_processed + 1
+                except Exception as e:
+                    print("Error saving embedings", e)
+                    continue
+
+            print(
+                f"Finished processing {transcriptions_fully_processed} episodes for candidate {candidate}")
 
 
 if __name__ == "__main__":

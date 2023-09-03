@@ -19,6 +19,8 @@ class Search():
 
     FILTER_THRESHOLD = 0.40
     MAX_RESULTS_SIMILARITY_SEARCH = 10
+
+    # TODO - to be defined how to determine the collection name based on the candidate
     COLLECTION_NAME = "milei"
 
     def __init__(self) -> None:
