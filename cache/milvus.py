@@ -1,12 +1,12 @@
 """
-Semantic cache class using Milvius as a vector-store backend. It implements langchain BaseCache interface.
+Semantic cache class using Milvus as a vector-store backend. It implements langchain BaseCache interface.
 The prompt must have the query between <query> </query> tags
 We only need to cache the query, not the whole prompt with the chunks.
 """
 from __future__ import annotations
 from langchain.vectorstores import Milvus
 from langchain.cache import BaseCache
-from config import get_milvius_connection
+from config import get_milvus_connection
 
 from typing import (
     List,
@@ -30,7 +30,7 @@ def _hash(_input: str) -> str:
     return hashlib.md5(_input.encode()).hexdigest()
 
 
-class MilviusSemanticCache(BaseCache):
+class MilvusSemanticCache(BaseCache):
 
     """Cache that uses Milvus as a vector-store backend."""
 
@@ -60,7 +60,7 @@ class MilviusSemanticCache(BaseCache):
         # create new vectorstore client for the specific llm string
         try:
             self._cache_dict[index_name] = Milvus(
-                embedding_function=self.embedding, collection_name=index_name, connection_args=get_milvius_connection())
+                embedding_function=self.embedding, collection_name=index_name, connection_args=get_milvus_connection())
         except Exception as e:
             print("ERROR", e)
 
@@ -111,4 +111,4 @@ class MilviusSemanticCache(BaseCache):
         llm_cache = self._get_llm_cache(llm_string)
         ids: List = llm_cache.add_texts(
             texts=[filtered_prompt], metadatas=[metadata])
-        print("Added to Milvius cache ", ids)
+        print("Added to Milvus cache ", ids)

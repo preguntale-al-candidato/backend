@@ -5,12 +5,12 @@ from prompts import get_assistant_prompt_spanish
 from prompts import get_assistant_prompt_spanis_one_shot
 from langchain.chains.question_answering import load_qa_chain
 from langchain.chat_models import ChatOpenAI
-from cache.milvius import MilviusSemanticCache
+from cache.milvus import MilvusSemanticCache
 import langchain
 from langchain.llms import OpenAI
 from typing import List
 from langchain.vectorstores import Milvus
-from config import get_milvius_connection
+from config import get_milvus_connection
 
 import os
 
@@ -19,13 +19,14 @@ class Search():
 
     FILTER_THRESHOLD = 0.40
     MAX_RESULTS_SIMILARITY_SEARCH = 10
+    COLLECTION_NAME = "milei"
 
     def __init__(self) -> None:
         load_dotenv()
         embedding = OpenAIEmbeddings()
         self.vectordb = Milvus(embedding_function=embedding,
-                               connection_args=get_milvius_connection())
-        langchain.llm_cache = MilviusSemanticCache(
+                               connection_args=get_milvus_connection(), collection_name=self.COLLECTION_NAME)
+        langchain.llm_cache = MilvusSemanticCache(
             embedding=OpenAIEmbeddings(), score_threshold=0.15)
 
     def search(self, query: str = None):
