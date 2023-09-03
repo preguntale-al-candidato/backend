@@ -143,3 +143,5 @@ Spacefile
 cache_chroma/
 ingestion/processed_transcriptions.json
 db/
+volumes
+ingestion/processed_transcriptions/
