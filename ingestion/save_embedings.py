@@ -73,12 +73,18 @@ def main():
     for candidate in candidate_dirs:
         candidate_path = TRANSCRIPTIONS_PATH + "/" + candidate
         file_list = os.listdir(candidate_path)
-        file_path = PROCESSED_TRANSCRIPTIONS_PATH + "/" + candidate + ".json"
+        processed_transcriptions_path = PROCESSED_TRANSCRIPTIONS_PATH + \
+            "/" + candidate + ".json"
 
-        with open(file_path, 'r') as f:
-            processed_transcriptions: List = json.load(f)
-            transcriptions_fully_processed = 0
+        try:
+            with open(processed_transcriptions_path, 'r') as f:
+                processed_transcriptions: List = json.load(f)
+        except:
+            with open(processed_transcriptions_path, "w") as file:
+                file.write(json.dumps([]))
+                processed_transcriptions: List = []
 
+        transcriptions_fully_processed = 0
         for file_name in file_list:
             if (file_name in processed_transcriptions):
                 print("Skipping as already processed, title: ", file_name)
@@ -93,7 +99,8 @@ def main():
             try:
                 save_embedings(candidate, chunks, metadatas)
                 processed_transcriptions.append(file_name)
-                save_updated_episodes(file_path, processed_transcriptions)
+                save_updated_episodes(
+                    processed_transcriptions_path, processed_transcriptions)
                 time.sleep(1)
                 transcriptions_fully_processed = transcriptions_fully_processed + 1
             except Exception as e:
