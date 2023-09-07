@@ -28,4 +28,4 @@ def get_milvus_connection():
     }
 
 
-ASSETS_PATH = pathlib.Path(__file__).parent / "frontend" / "out"
+# ASSETS_PATH = pathlib.Path(__file__).parent / "frontend" / "out"
