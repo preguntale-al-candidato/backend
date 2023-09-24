@@ -1,18 +1,21 @@
+/frontend/.chroma
 content/transcripts/
-
-db/
-
-/ingestion/audio/*
-ingestion/processed_transcriptions/
-ingestion/processed_transcriptions.json
+.chroma
 
 .space
 Spacefile
 
-volumes
+/ingestion/audio/*
 
-# Created by https://www.toptal.com/developers/gitignore/api/git,linux,macos,python,windows,virtualenv,visualstudiocode,sublimetext
-# Edit at https://www.toptal.com/developers/gitignore?templates=git,linux,macos,python,windows,virtualenv,visualstudiocode,sublimetext
+cache_chroma/
+ingestion/processed_transcriptions.json
+db/
+volumes
+ingestion/processed_transcriptions/
+
+
+# Created by https://www.toptal.com/developers/gitignore/api/python,windows,macos,linux,visualstudiocode,sublimetext,git,virtualenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,macos,linux,visualstudiocode,sublimetext,git,virtualenv
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -339,4 +342,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/git,linux,macos,python,windows,virtualenv,visualstudiocode,sublimetext
+# End of https://www.toptal.com/developers/gitignore/api/python,windows,macos,linux,visualstudiocode,sublimetext,git,virtualenv

@@ -17,6 +17,10 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
+@app.post("/", status_code=501)
+async def root():
+    return {"message": "Not implemented"}
+
 @app.get("/api/ping")
 async def hello():
     return {"message": "pong"}
