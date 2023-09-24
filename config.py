@@ -26,6 +26,3 @@ def get_milvus_connection():
         "password": settings.MILVUS_PASSWORD,
         "secure": settings.MILVUS_SECURE,
     }
-
-
-# ASSETS_PATH = pathlib.Path(__file__).parent / "frontend" / "out"

@@ -6,7 +6,6 @@ content/transcripts/
 Spacefile
 
 /ingestion/audio/*
-.vscode/
 
 cache_chroma/
 ingestion/processed_transcriptions.json
