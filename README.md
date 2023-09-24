@@ -53,7 +53,7 @@ pip install --requirement requirements.txt
 
 4. Correr el servidor ejecutando:
 ```
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 Los endpoints de la api empiezan con `/api/` \
 
