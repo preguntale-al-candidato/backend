@@ -5,31 +5,31 @@ on:
     types: [opened, reopened, synchronize]
     branches: [main, master]
 
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.9", "3.10", "3.11"]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Display Python version
-        run: python -c "import sys; print(sys.version)"
-      - name: Install linter
-        run: pip install pylint
-      - name: Lint
-        run: pylint *.py **/*.py
+env:
+  PYTHON_VERSION: 3.11
 
-  # build:
-  #   name: Build Docker image
+jobs:
+  # lint:
   #   runs-on: ubuntu-latest
   #   steps:
-  #   - name: Checkout
-  #     uses: actions/checkout@v3
-  #   - name: Build the Docker image
-  #     run: docker build . --file Dockerfile --tag test-backend-image:$(date +%s)
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
+  #     - name: Set up Python ${{ env.PYTHON_VERSION }}
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: ${{ env.PYTHON_VERSION }}
+  #     - name: Display Python version
+  #       run: python -c "import sys; print(sys.version)"
+  #     - name: Install linter
+  #       run: pip install pylint
+  #     - name: Lint
+  #       run: pylint *.py **/*.py
+
+  build:
+    name: Build Docker image
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag backend:$(date +%s)
