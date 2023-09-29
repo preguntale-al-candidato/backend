@@ -2,8 +2,7 @@ name: PR Workflow
 
 on:
   pull_request:
-    types: [opened, reopened, synchronize]
-    branches: [main]
+    branches: [ main ]
 
 env:
   PYTHON_VERSION: 3.11
