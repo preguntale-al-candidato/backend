@@ -19,6 +19,10 @@ jobs:
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
+        with:
+          mask-password: true
+          registry-type: private
+          skip-logout: false
       - name: Process metadata (tags, labels)
         id: meta
         uses: docker/metadata-action@v5
