@@ -3,11 +3,6 @@ on:
   release:
     types: [published]
 
-# env:
-#   AWS_ACCESS_KEY: ${{ secrets.BACKEND_DEPLOYER_AWS_ACCESS_KEY }}
-#   AWS_SECRET_ACCESS_KEY: ${{ secrets.BACKEND_DEPLOYER_AWS_SECRET_ACCESS_KEY }}
-#   AWS_REGION: us-east-1
-
 jobs:
   deploy:
     name: Deploy
@@ -18,8 +13,8 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.S3_DEPLOYER_AWS_ACCESS_KEY }}
-          aws-secret-access-key: ${{ secrets.S3_DEPLOYER_AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: ${{ secrets.BACKEND_DEPLOYER_AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.BACKEND_DEPLOYER_AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Login to Amazon ECR
         id: login-ecr
