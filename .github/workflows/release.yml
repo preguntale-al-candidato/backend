@@ -3,10 +3,6 @@ on:
   release:
     types: [published]
 
-env:
-  AWS_ACCESS_KEY: ${{ secrets.BACKEND_DEPLOYER_AWS_ACCESS_KEY }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.BACKEND_DEPLOYER_AWS_SECRET_ACCESS_KEY }}
-
 jobs:
   deploy:
     name: Deploy
@@ -14,16 +10,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.BACKEND_DEPLOYER_AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.BACKEND_DEPLOYER_AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
       - name: Login to Amazon ECR
-        run : aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 301634789447.dkr.ecr.us-east-1.amazonaws.com
-
-
-      # - name: Configure AWS Credentials
-      #   uses: aws-actions/configure-aws-credentials@v4
-      #   with:
-      #     aws-access-key-id: ${{ secrets.BACKEND_DEPLOYER_AWS_ACCESS_KEY }}
-      #     aws-secret-access-key: ${{ secrets.BACKEND_DEPLOYER_AWS_SECRET_ACCESS_KEY }}
-      #     aws-region: us-east-1
+      run : aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 301634789447.dkr.ecr.us-east-1.amazonaws.com
       # - name: Login to Amazon ECR
       #   id: login-ecr
       #   uses: aws-actions/amazon-ecr-login@v1
