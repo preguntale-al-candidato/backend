@@ -8,6 +8,7 @@ from search import Search
 
 services = {}
 
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("Load models...")
@@ -17,17 +18,26 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
+
 @app.post("/", status_code=501)
 async def root():
     return {"message": "Not implemented"}
+
+
+@app.post("/health", status_code=200)
+async def health():
+    return {"message": "status: OK"}
+
 
 @app.get("/api/ping")
 async def hello():
     return {"message": "pong"}
 
+
 @app.get("/api/test")
 async def test(query: str = None):
     return {"response": query}
+
 
 @app.get("/api/search")
 async def search(query: str = None):
