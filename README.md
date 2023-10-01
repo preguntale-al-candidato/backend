@@ -1,6 +1,6 @@
 ## Preguntale al Candidato - Backend
 
-Usa inteligencia artificial basada en GPT-4 para hacerle pregunta a los candidatos presidenciales.
+Usa inteligencia artificial basada en GPT-3.5-Turbo para hacerle pregunta a los candidatos presidenciales.
 
 Herramientas utilizadas
 * Langchain / OpenAI
