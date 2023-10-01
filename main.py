@@ -19,12 +19,13 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 
-@app.post("/", status_code=501)
+@app.get("/", status_code=501)
 async def root():
     return {"message": "Not implemented"}
 
 
-@app.post("/health", status_code=200)
+@app.head("/health", status_code=200)
+@app.get("/health", status_code=200)
 async def health():
     return {"message": "status: OK"}
 
