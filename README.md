@@ -56,14 +56,7 @@ pip install --upgrade pip
 pip install --requirement requirements.txt
 ```
 
-5. Correr el servidor ejecutando:
-
-```bash
-uvicorn main:app --reload
-```
-Los endpoints de la api empiezan con `/api/` \
-
-6. (Opcional) Ingesta de transcripciones.
+5. (Opcional) Ingesta de transcripciones.
 
 Si la base de datos levantada en el paso `1` fue creada desde un backup en S3 **OMITA** este paso.
 
@@ -72,6 +65,13 @@ cd ingestion
 mkdir -p processed_transcriptions
 python save_embedings.py
 ```
+
+6. Correr el servidor ejecutando:
+
+```bash
+uvicorn main:app --reload
+```
+Los endpoints de la api empiezan con `/api/` \
 
 7. Correr el frontend
 
