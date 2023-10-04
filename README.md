@@ -71,7 +71,8 @@ python save_embedings.py
 ```bash
 uvicorn main:app --reload
 ```
-Los endpoints de la api empiezan con `/api/` \
+
+Los endpoints de la api empiezan con `/api/` y estaran disponibles en [http://localhost:8000](http://localhost:8000)
 
 7. Correr el frontend
 
