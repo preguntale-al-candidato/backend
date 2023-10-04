@@ -37,8 +37,6 @@ def to_chunks(candidate: str, transcription_path, chunk_length=1000):
             if (len(temp_chunk) <= chunk_length):
                 chunk = temp_chunk
             else:
-                print("Saving: ")
-                print(f"{candidate} dijo: {chunk}")
                 chunks.append(f"{candidate} dijo: {chunk}")
                 metadata = {'name': name, 'link': link, 'start': start}
                 metadatas.append(metadata)
@@ -90,11 +88,9 @@ def main():
                 print("Skipping as already processed, title: ", file_name)
                 continue
             file_path = candidate_path + "/" + file_name
-            title = "test title"
-            print("Processing", title)
             chunks, metadatas = to_chunks(candidate, file_path)
             if (len(chunks) == 0 or len(metadatas) == 0):
-                print("No chunks to process due to an exception for", title)
+                print("No chunks to process due to an exception for", file_name)
                 continue
             try:
                 save_embedings(candidate, chunks, metadatas)
