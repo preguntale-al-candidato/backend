@@ -32,31 +32,47 @@ Langchain actualmente no soporta semantic caching usando Milvus, por lo que en e
 
 Pasos para correr el servidor localmente:
 
-1. Generar un entorno virtual
-```
+1. Vea el repositorio [preguntale-al-candidato/db](https://github.com/preguntale-al-candidato/db) para correr la base de datos Milvus.
+
+2. Generar un entorno virtual
+
+```bash
 pip install virtualenv
 virtualenv env
 ```
 
-2. Activar el entorno virtual
-```
-source env/bin/activate  // In Unix
-env/Scripts/activate.bat // In CMD
-env/Scripts/Activate.ps1 // In Powershell
+3. Activar el entorno virtual
+
+```bash
+source env/bin/activate  // En Unix (Linux y MacOS)
+env/Scripts/activate.bat // En Windows (CMD)
+env/Scripts/Activate.ps1 // En WIndows (Powershell)
 ```
 
-3. Instalar las dependencias
-```
+4. Instalar las dependencias
+
+```bash
 pip install --upgrade pip
 pip install --requirement requirements.txt
 ```
 
-4. Correr el servidor ejecutando:
-```
+5. Correr el servidor ejecutando:
+
+```bash
 uvicorn main:app --reload
 ```
 Los endpoints de la api empiezan con `/api/` \
 
-### Frontend
+6. (Opcional) Ingesta de transcripciones.
 
-Ver repositorio [frontend](https://github.com/preguntale-al-candidato/frontend).
+Si la base de datos levantada en el paso `1` fue creada desde un backup en S3 **OMITA** este paso.
+
+```bash
+cd ingestion
+mkdir -p processed_transcriptions
+python save_embedings.py
+```
+
+7. Correr el frontend
+
+Una vez que el backend esta listo, a partir del repositorio [preguntale-al-candidato/frontend](https://github.com/preguntale-al-candidato/frontend) podrá correr el frontend y acceder a la interfaz gráfica.
