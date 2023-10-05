@@ -52,8 +52,11 @@ def to_chunks(candidate: str, transcription_path, chunk_length=1000):
 def save_embedings(collection_name: str, chunks: list = None, metadatas: list = None):
     embeddings = OpenAIEmbeddings()
     print(f"Saving {len(chunks)} chunks in database")
+    milvus_host = os.getenv("MILVUS_HOST", default="localhost")
+    milvus_port = os.getenv("MILVUS_PORT", default="19530")
     vectordb = Milvus.from_texts(
-        chunks, embeddings, metadatas=metadatas, collection_name=collection_name)
+        chunks, embeddings, metadatas=metadatas, collection_name=collection_name,
+        connection_args={"host": milvus_host, "port": milvus_port})
 
 
 def save_updated_episodes(file_path: str, episodes: List):
