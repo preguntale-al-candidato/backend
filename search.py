@@ -1,7 +1,7 @@
 from langchain.embeddings.openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 import os
-from prompts import get_assistant_prompt_spanish
+from prompts import get_assistant_prompt_spanish_improved
 from prompts import get_assistant_prompt_spanis_one_shot
 from langchain.chains.question_answering import load_qa_chain
 from langchain.chat_models import ChatOpenAI
@@ -17,8 +17,8 @@ import os
 
 class Search():
 
-    FILTER_THRESHOLD = 0.40
-    MAX_RESULTS_SIMILARITY_SEARCH = 10
+    FILTER_THRESHOLD = 0.31
+    MAX_RESULTS_SIMILARITY_SEARCH = 8
 
     # TODO - to be defined how to determine the collection name based on the candidate
     COLLECTION_NAME = "milei"
@@ -29,7 +29,7 @@ class Search():
         self.vectordb = Milvus(embedding_function=embedding,
                                connection_args=get_milvus_connection(), collection_name=self.COLLECTION_NAME)
         langchain.llm_cache = MilvusSemanticCache(
-            embedding=OpenAIEmbeddings(), score_threshold=0.15)
+            embedding=OpenAIEmbeddings(), score_threshold=0.12)
 
     def search(self, query: str = None):
         results = self.vectordb.similarity_search_with_score(
@@ -42,14 +42,14 @@ class Search():
             prompt = get_assistant_prompt_spanis_one_shot()
         else:
             print("Using non-diarized db")
-            prompt = get_assistant_prompt_spanish()
+            prompt = get_assistant_prompt_spanish_improved()
 
         if (len(docs) == 0):
             print("No sources found")
             return {"answer": "No se encontraron resultados", "sources": []}
 
         # llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=1) # TODO - haven' figured out yet how to use a chat model with the semantic cache.
-        llm = OpenAI(model_name="gpt-3.5-turbo", temperature=1)
+        llm = OpenAI(model_name="gpt-3.5-turbo", temperature=1, max_tokens=500)
         chain = load_qa_chain(llm, chain_type="stuff",
                               prompt=prompt, verbose=False)
         answer = chain(
