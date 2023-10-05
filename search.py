@@ -17,7 +17,7 @@ import os
 
 class Search():
 
-    FILTER_THRESHOLD = 0.31
+    FILTER_THRESHOLD = 0.34
     MAX_RESULTS_SIMILARITY_SEARCH = 8
 
     # TODO - to be defined how to determine the collection name based on the candidate
@@ -49,7 +49,7 @@ class Search():
             return {"answer": "No se encontraron resultados", "sources": []}
 
         # llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=1) # TODO - haven' figured out yet how to use a chat model with the semantic cache.
-        llm = OpenAI(model_name="gpt-3.5-turbo", temperature=1, max_tokens=500)
+        llm = OpenAI(model_name="gpt-3.5-turbo", temperature=1, max_tokens=500, top_p=1)
         chain = load_qa_chain(llm, chain_type="stuff",
                               prompt=prompt, verbose=False)
         answer = chain(
