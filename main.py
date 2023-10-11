@@ -57,10 +57,10 @@ async def test(query: str = None):
 
 
 @app.get("/api/search")
-async def search(query: str = None):
+async def search(candidate: str = "milei", query: str = None):
     search = services["search"]
     # validate search has been loaded
     if search is None:
         raise HTTPException(status_code=500, detail="Search module not found")
-    response = search.search(query)
+    response = search.search(candidate_name=candidate, query=query)
     return {"response": response}
