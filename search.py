@@ -20,19 +20,18 @@ class Search():
     FILTER_THRESHOLD = 0.34
     MAX_RESULTS_SIMILARITY_SEARCH = 8
 
-    # TODO - to be defined how to determine the collection name based on the candidate
-    COLLECTION_NAME = "milei"
 
     def __init__(self) -> None:
         load_dotenv()
-        embedding = OpenAIEmbeddings()
-        self.vectordb = Milvus(embedding_function=embedding,
-                               connection_args=get_milvus_connection(), collection_name=self.COLLECTION_NAME)
         langchain.llm_cache = MilvusSemanticCache(
             embedding=OpenAIEmbeddings(), score_threshold=0.12)
 
-    def search(self, query: str = None):
-        results = self.vectordb.similarity_search_with_score(
+
+    def search(self, candidate_name: str = "milei", query: str = None):
+        vector_db = Milvus(embedding_function=OpenAIEmbeddings(),
+                           connection_args=get_milvus_connection(),
+                           collection_name=candidate_name)
+        results = vector_db.similarity_search_with_score(
             query, k=self.MAX_RESULTS_SIMILARITY_SEARCH)
         filtered_results = [
             r for r in results if r[1] <= self.FILTER_THRESHOLD]
