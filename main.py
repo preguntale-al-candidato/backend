@@ -34,7 +34,6 @@ app.add_middleware(
 )
 
 
-
 @app.get("/", status_code=501)
 async def root():
     return {"message": "Not implemented"}
@@ -57,7 +56,12 @@ async def test(query: str = None):
 
 
 @app.get("/api/search")
-async def search(candidate: str = "milei", query: str = None):
+async def search(candidate: str = None, query: str = None):
+    supported_candidates = ["bregman", "bullrich", "massa", "milei", "schiaretti"]
+    if (candidate is None or candidate not in supported_candidates):
+        print("Candidate is None or is not a supported name")
+        return {"answer": "El candidato ingresado no es válido", "sources": []}
+
     search = services["search"]
     # validate search has been loaded
     if search is None:
