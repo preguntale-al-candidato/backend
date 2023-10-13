@@ -57,8 +57,14 @@ async def test(query: str = None):
 
 @app.get("/api/search")
 async def search(candidate: str = None, query: str = None):
-    supported_candidates = ["bregman", "bullrich", "massa", "milei", "schiaretti"]
-    if (candidate is None or candidate not in supported_candidates):
+    candidates = {
+      "bregman": "Myriam Bregman",
+      "bullrich": "Patricia Bullrich",
+      "massa": "Sergio Massa",
+      "milei": "Javier Milei",
+      "schiaretti": "Juan Schiaretti"
+    }
+    if (candidate is None or candidate not in candidates.keys()):
         print("Candidate is None or is not a supported name")
         return {"answer": "El candidato ingresado no es válido", "sources": []}
 
@@ -66,5 +72,7 @@ async def search(candidate: str = None, query: str = None):
     # validate search has been loaded
     if search is None:
         raise HTTPException(status_code=500, detail="Search module not found")
-    response = search.search(candidate_name=candidate, query=query)
+
+    new_query = f"Pregunta para el candidato {candidates[candidate]}, {query}"
+    response = search.search(candidate_name=candidate, query=new_query)
     return {"response": response}
