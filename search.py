@@ -23,9 +23,8 @@ class Search():
 
     def __init__(self) -> None:
         load_dotenv()
-        # Temporarily disabling cache
-        # langchain.llm_cache = MilvusSemanticCache(
-        #     embedding=OpenAIEmbeddings(), score_threshold=0.12)
+        langchain.llm_cache = MilvusSemanticCache(
+            embedding=OpenAIEmbeddings(), score_threshold=0.12)
 
 
     def search(self, candidate_name: str = "milei", query: str = None):
