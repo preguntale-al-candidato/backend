@@ -77,13 +77,24 @@ class MilvusSemanticCache(BaseCache):
         if (len(re.findall(reg_str, prompt)) == 0):
             return ""
         return str(re.findall(reg_str, prompt)[0])
+    
+    def extract_candidate_name_from_prompt(self, prompt: str) -> str:
+        pattern = r"Pregunta para el candidato(.*?),"
+        match = re.search(pattern, prompt)
+        if match:
+            return match.group(1).replace(" ", "").lower()
+        else:
+            raise Exception("Could not extract candidate name")
+
 
     def lookup(self, prompt: str, llm_string: str) -> Optional[RETURN_VAL_TYPE]:
         """Look up based on prompt"""
-        llm_cache = self._get_llm_cache(llm_string)
+        candidate_name = self.extract_candidate_name_from_prompt(prompt)
+        cache_name = llm_string + "_" + candidate_name
+        llm_cache = self._get_llm_cache(cache_name)
         generations = []
         filtered_prompt = self.extract_query_from_prompt(prompt)
-        print("Searching Milvus cache for ", filtered_prompt)
+        print(f"Searching Milvus cache {cache_name} for {filtered_prompt}")
         results = llm_cache.similarity_search_with_score(
             query=filtered_prompt,
             k=1
@@ -108,7 +119,9 @@ class MilvusSemanticCache(BaseCache):
             "prompt": filtered_prompt,
             "return_val": return_val[0].text,
         }
-        llm_cache = self._get_llm_cache(llm_string)
+        candidate_name = self.extract_candidate_name_from_prompt(prompt)
+        cache_name = llm_string + "_" + candidate_name
+        llm_cache = self._get_llm_cache(cache_name)
         ids: List = llm_cache.add_texts(
             texts=[filtered_prompt], metadatas=[metadata])
-        print("Added to Milvus cache ", ids)
+        print(f"Added to Milvus cache {cache_name} with ids {ids}")
