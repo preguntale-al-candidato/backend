@@ -94,7 +94,6 @@ class MilvusSemanticCache(BaseCache):
         llm_cache = self._get_llm_cache(cache_name)
         generations = []
         filtered_prompt = self.extract_query_from_prompt(prompt)
-        print(f"Searching Milvus cache {cache_name} for {filtered_prompt}")
         results = llm_cache.similarity_search_with_score(
             query=filtered_prompt,
             k=1
