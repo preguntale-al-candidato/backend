@@ -23,7 +23,7 @@ class Search():
     def __init__(self) -> None:
         load_dotenv()
         langchain.llm_cache = MilvusSemanticCache(
-            embedding=OpenAIEmbeddings(), score_threshold=0.12)
+            embedding=OpenAIEmbeddings(), score_threshold=0.9)
 
 
     def search(self, candidate_name: str = "milei", query: str = None):
