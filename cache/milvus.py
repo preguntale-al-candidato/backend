@@ -50,8 +50,13 @@ class MilvusSemanticCache(BaseCache):
         hashed_index = _hash(llm_string)
         return f"cache_{hashed_index}"
 
-    def _get_llm_cache(self, llm_string: str) -> Milvus:
-        index_name = self._index_name(llm_string)
+    def _get_llm_cache(self, llm_string: str, suffix: str) -> Milvus:
+
+        # hardcoding to always use the same caches
+        llm_string = "[('_type', 'openai-chat'), ('max_tokens', 500), ('model_name', 'gpt-4'), ('stop', None), ('temperature', 0.5), ('top_p', 1)]"
+        cache_name = llm_string + "_" + suffix
+
+        index_name = self._index_name(cache_name)
 
         # return vectorstore client for the specific llm string
         if index_name in self._cache_dict:
@@ -90,8 +95,7 @@ class MilvusSemanticCache(BaseCache):
     def lookup(self, prompt: str, llm_string: str) -> Optional[RETURN_VAL_TYPE]:
         """Look up based on prompt"""
         candidate_name = self.extract_candidate_name_from_prompt(prompt)
-        cache_name = llm_string + "_" + candidate_name
-        llm_cache = self._get_llm_cache(cache_name)
+        llm_cache = self._get_llm_cache(llm_string, candidate_name)
         generations = []
         filtered_prompt = self.extract_query_from_prompt(prompt)
         results = llm_cache.similarity_search_with_score(
@@ -119,8 +123,7 @@ class MilvusSemanticCache(BaseCache):
             "return_val": return_val[0].text,
         }
         candidate_name = self.extract_candidate_name_from_prompt(prompt)
-        cache_name = llm_string + "_" + candidate_name
-        llm_cache = self._get_llm_cache(cache_name)
+        llm_cache = self._get_llm_cache(llm_string, candidate_name)
         ids: List = llm_cache.add_texts(
             texts=[filtered_prompt], metadatas=[metadata])
-        print(f"Added to Milvus cache {cache_name} with ids {ids}")
+        print(f"Added to Milvus cache {candidate_name} with ids {ids}")
