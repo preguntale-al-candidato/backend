@@ -30,6 +30,7 @@ class Search():
         vector_db = Milvus(embedding_function=OpenAIEmbeddings(),
                            connection_args=get_milvus_connection(),
                            collection_name=candidate_name)
+        print(f"Query: {query}")
         results = vector_db.similarity_search_with_score(
             query, k=self.MAX_RESULTS_SIMILARITY_SEARCH)
         filtered_results = [
